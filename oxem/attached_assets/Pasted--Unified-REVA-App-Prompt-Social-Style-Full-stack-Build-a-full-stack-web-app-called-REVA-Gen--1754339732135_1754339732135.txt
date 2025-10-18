@@ -1,0 +1,17 @@
+🌐 Unified REVA App Prompt (Social-Style, Full-stack)
+“Build a full-stack web app called REVA – Gen Z Campus Services Platform, inspired by Instagram and TikTok. Use React + Tailwind CSS for frontend, ASP.NET Core for backend, and Firebase for real-time database, notifications, and auth. Integrate four modules — Lost & Found, Fundraising, Events, and Admin Panel — with interactive, swipeable interface and story-style navigation. Enable real-time syncing between modules. Add animated transitions (Framer Motion), OAuth 2.0-based login (Student/Admin), and AES-256 security. Prioritize mobile-first responsive design.”
+
+🎒 Lost & Found Module — Full Prompt
+“Create a Lost & Found feed with scrollable cards. Each card includes photo, description, hashtags, timestamp, and map pin. Users can ‘Like’, ‘Comment’, ‘Report as Found’, or ‘Claim’. Enable image upload and auto-tagging using Firebase Vision API. Add filter system (item type, date, location). Implement auto-matching logic with found reports, and send real-time Firebase alerts. Add a verification workflow for Admins.”
+
+💰 Fundraising Module — Full Prompt
+“Design a TikTok-style fundraising module for student-led financial campaigns. Each campaign is a swipeable card with image/video, description, goal progress ring, and call-to-action ‘Support Now’ button. Add donor reactions (🔥, ❤️), emoji chat, live campaign updates, and milestone notifications. Users can start campaigns, share via campus feed, and track performance. Admins approve, pause, or archive campaigns. Stripe integration optional.”
+
+🎉 Campus Events Module — Full Prompt
+“Build a vertical event feed showing reels/posters of upcoming events. Each event card has animated countdown, RSVP button, emoji reactions, and comments. Add tags (Academic, Music, Sports), bookmark feature, and RSVP tracking. Enable event creation with poster upload, tag selector, location picker. Firebase handles reminders. Integrate calendar sync and real-time update if schedule changes. Admins moderate and highlight trending events.”
+
+🛂 Admin Panel — Full Prompt
+“Create a social-analytics-style admin dashboard. Admins can view metrics: lost items claimed, funds raised, RSVP count per event. Include moderation panel for each module. Allow data export (CSV), account management, campaign and report approvals. Use dark mode dashboard with interactive graphs (e.g., Chart.js). Integrate audit logs and history tracking per user action. Secure with AES-256, role-based access, and Firebase monitoring.”
+
+🔀 Inter-Module Integration — Prompt
+“Ensure real-time sync across all modules. When a user claims a lost item, their profile updates. Fundraising milestones appear in the campus feed. Event RSVP triggers profile badge. Notifications and updates should reflect app-wide via Firebase. Central profile page aggregates user actions (Events joined, Items claimed, Donations made). Maintain smooth navigation via swipe gestures and animated routing
